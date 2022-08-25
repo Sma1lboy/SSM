@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b690861-5aed-4956-abbf-59f9abae1625" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="mybatis-mapper" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ddshs5JmydUS5RzhrJ62ZwBPJ5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/jacksonchen/Documents/workspace_java/JAVASSM/mybatis_resultMap/src/main/java",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/java" />
+      <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis_parameter/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/resources/me/jackson/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/mybatis_resultMap" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/me/jackson/mybatis/mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.jackson.mybatis.exceptions" />
+      <recent name="me.jackson.mybatis.utils" />
+      <recent name="me.jackson.mybatis.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestEmpMapper.testDept">
+    <configuration name="SpeicalSQLMapperTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_parameter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.SpeicalSQLMapperTest" />
+      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmpMapper.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_resultMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
+      <option name="METHOD_NAME" value="test12" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmpMapper.testByStemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_resultMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
+      <option name="METHOD_NAME" value="testByStemp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmpMapper.testDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_resultMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
+      <option name="METHOD_NAME" value="testDept" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmpMapper.testGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_resultMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
+      <option name="METHOD_NAME" value="testGetId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestEmpMapper.testDept" />
+        <item itemvalue="JUnit.TestEmpMapper.testByStemp" />
+        <item itemvalue="JUnit.TestEmpMapper.test12" />
+        <item itemvalue="JUnit.TestEmpMapper.testGetId" />
+        <item itemvalue="JUnit.SpeicalSQLMapperTest.testInsertUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b690861-5aed-4956-abbf-59f9abae1625" name="Changes" comment="" />
+      <created>1661040418418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661040418418</updated>
+      <workItem from="1661040419590" duration="8897000" />
+      <workItem from="1661092362467" duration="15339000" />
+      <workItem from="1661124226398" duration="2384000" />
+      <workItem from="1661281893371" duration="15213000" />
+      <workItem from="1661307954236" duration="600000" />
+      <workItem from="1661363547503" duration="9000" />
+      <workItem from="1661364612749" duration="1159000" />
+      <workItem from="1661382953467" duration="11048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis_helloworld/src/test/java/MyBatisTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis_resultMap/src/test/java/me/jackson/mybatis/test/TestEmpMapper.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

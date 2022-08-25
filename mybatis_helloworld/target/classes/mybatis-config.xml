@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    "(properties?,settings?,typeAliases?,typeHandlers?,objectFactory?,objectWrapperFactory?,reflectorFactory?,plugins?,environments?,databaseIdProvider?,mappers?)".-->
+<!--    MyBatis核心配置文件需要 按以上顺序配置-->
+
+<!--    引入properties文件 此后就可以在当前文件中来使用${key}的方式来访问value-->
+    <properties resource="jdbc.properties"/>
+
+    <typeAliases>
+        <package name="me.jackson.mybatis.pojo"/>
+    </typeAliases>
+    <!--
+        environments设置连接数据库的环境
+        属性
+        default
+        设置默认运行环境
+    -->
+    <environments default="development">
+<!--
+            environtment
+            属性
+            id=设置环境的唯一标识，不能重复
+
+                -->
+        <environment id="development">
+<!--
+            transactionManager 事务管理器
+            属性
+            type 设置事务管理的方式
+            type = "JDBC|MANAGED"
+            JDBC: 使用JDBC中的原生的事务管理方式
+            MANAGED: 被管理， 例如Spring
+-->
+            <transactionManager type="JDBC"/>
+<!--
+            数据源 -> 数据库连接池 e.g.德鲁伊
+            dataSource 设置数据源
+            属性
+            type：设置数据源类型
+            type="POLLED|UNPOOLED|JNDI"
+            POOLED:使用数据库连接池
+            UNPOOLED:不实用数据库连接池
+            JDNI:使用上下文中的数据源
+-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value=""/>
+            </dataSource>
+        </environment>
+
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <!--            数据源 -> 数据库连接池 e.g.德鲁伊-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value=""/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--引入映射文件-->
+    <mappers>
+
+<!--        <mapper resource="mappers/UserMapper.xml"/>-->
+<!--以包的方式引入映射文件， 但是必须满足两个条件
+1. mapper接口和映射文件所在的包必须一致
+2. mapper接口和映射文件的名字必须一致-->
+        <package name="me.jackson.mybatis.mapper"/>
+    </mappers>
+</configuration>
