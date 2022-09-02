@@ -13,13 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="mybatis-config" />
         <option value="module-info" />
+        <option value="mybatis-config" />
+        <option value="Kotlin Class" />
+        <option value="mybatis-mapper" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="mybatis-mapper" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.1/spring-beans-5.3.1-sources.jar!/org/springframework/beans/factory/BeanFactory.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,33 +35,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/jacksonchen/Documents/workspace_java/JAVASSM/mybatis_resultMap/src/main/java",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15332031",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jacksonchen/Documents/workspace_java/JAVASSM/spring_transaction/src/test/java/me/jackson/spring/test&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37126437&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;643c346b69e955d43340456ae84844c3&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/java" />
-      <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/resources" />
-      <recent name="$PROJECT_DIR$/mybatis_parameter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring_transaction/src/test/java/me/jackson/spring/test" />
+      <recent name="$PROJECT_DIR$/spring_aop/src/main/java/me/jackson/spring/" />
+      <recent name="$PROJECT_DIR$/spring_aop/src/main/java/me/jackson/spring/annotation" />
+      <recent name="$PROJECT_DIR$/mybatis_mbg/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis_cache/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis_cache/src/main/resources/me/jackson/mybatis" />
       <recent name="$PROJECT_DIR$/mybatis_resultMap/src/main/resources/me/jackson/mybatis/mapper" />
       <recent name="$PROJECT_DIR$/mybatis_resultMap" />
       <recent name="$PROJECT_DIR$" />
@@ -68,82 +77,82 @@
       <recent name="me.jackson.mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestEmpMapper.testDept">
-    <configuration name="SpeicalSQLMapperTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_parameter" />
+  <component name="RunManager" selected="JUnit.TxByAnnotationTest.testTxByAnnotattion">
+    <configuration name="JDBCTemplateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="PATTERN" value="me.jackson.spring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.SpeicalSQLMapperTest" />
-      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="PACKAGE_NAME" value="me.jackson.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.spring.test.JDBCTemplateTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmpMapper.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_resultMap" />
+    <configuration name="JDBCTemplateTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="PATTERN" value="me.jackson.spring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="PACKAGE_NAME" value="me.jackson.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.spring.test.JDBCTemplateTest" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmpMapper.testByStemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_resultMap" />
+    <configuration name="JDBCTemplateTest.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="PATTERN" value="me.jackson.spring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
-      <option name="METHOD_NAME" value="testByStemp" />
+      <option name="PACKAGE_NAME" value="me.jackson.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.spring.test.JDBCTemplateTest" />
+      <option name="METHOD_NAME" value="testSelect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmpMapper.testDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_resultMap" />
+    <configuration name="JDBCTemplateTest.testSelectMore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="PATTERN" value="me.jackson.spring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
-      <option name="METHOD_NAME" value="testDept" />
+      <option name="PACKAGE_NAME" value="me.jackson.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.spring.test.JDBCTemplateTest" />
+      <option name="METHOD_NAME" value="testSelectMore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmpMapper.testGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_resultMap" />
+    <configuration name="TxByAnnotationTest.testTxByAnnotattion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_transaction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.jackson.mybatis.test.*" />
+          <option name="PATTERN" value="me.jackson.spring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="me.jackson.mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="me.jackson.mybatis.test.TestEmpMapper" />
-      <option name="METHOD_NAME" value="testGetId" />
+      <option name="PACKAGE_NAME" value="me.jackson.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="me.jackson.spring.test.TxByAnnotationTest" />
+      <option name="METHOD_NAME" value="testTxByAnnotattion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestEmpMapper.testDept" />
-        <item itemvalue="JUnit.TestEmpMapper.testByStemp" />
-        <item itemvalue="JUnit.TestEmpMapper.test12" />
-        <item itemvalue="JUnit.TestEmpMapper.testGetId" />
-        <item itemvalue="JUnit.SpeicalSQLMapperTest.testInsertUser" />
+        <item itemvalue="JUnit.TxByAnnotationTest.testTxByAnnotattion" />
+        <item itemvalue="JUnit.JDBCTemplateTest.testCount" />
+        <item itemvalue="JUnit.JDBCTemplateTest.testSelectMore" />
+        <item itemvalue="JUnit.JDBCTemplateTest.testSelect" />
+        <item itemvalue="JUnit.JDBCTemplateTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +183,18 @@
       <workItem from="1661307954236" duration="600000" />
       <workItem from="1661363547503" duration="9000" />
       <workItem from="1661364612749" duration="1159000" />
-      <workItem from="1661382953467" duration="11048000" />
+      <workItem from="1661382953467" duration="11291000" />
+      <workItem from="1661441763946" duration="17381000" />
+      <workItem from="1661623348843" duration="23685000" />
+      <workItem from="1661733390062" duration="7103000" />
+      <workItem from="1661820252253" duration="8651000" />
+      <workItem from="1661890587652" duration="17543000" />
+      <workItem from="1661954128076" duration="1204000" />
+      <workItem from="1661970612737" duration="7000" />
+      <workItem from="1661972004230" duration="134000" />
+      <workItem from="1661984943572" duration="13670000" />
+      <workItem from="1662081890648" duration="9520000" />
+      <workItem from="1662145522695" duration="332000" />
     </task>
     <servers />
   </component>
@@ -191,10 +211,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mybatis_resultMap/src/test/java/me/jackson/mybatis/test/TestEmpMapper.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring_ioc_xml/src/main/java/me/jackson/spring/service/impl/UserServiceImpl.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring_transaction/src/main/java/me/jackson/spring/service/impl/BookServiceImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spring_transaction/src/main/java/me/jackson/spring/pojo/User.java</url>
+          <line>11</line>
+          <properties class="me.jackson.spring.pojo.User">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/spring_transaction/src/main/java/me/jackson/spring/service/impl/BookServiceImpl.java</url>
+          <line>22</line>
+          <properties field="userDAO" class="me.jackson.spring.service.impl.BookServiceImpl" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

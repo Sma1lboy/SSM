@@ -28,4 +28,18 @@
     </select>
 
 
+    <resultMap id="getDeptAndEmpByDeptIdStepOneResultMap" type="Dept">
+        <id column="dept_id" property="deptId"/>
+        <result column="dept_name" property="deptName"/>
+        <!--        ofType: the type inside of the list-->
+        <collection
+                property="emps"
+                column="dept_id"
+                select="me.jackson.mybatis.mapper.EmpMapper.getDeptAndEmpByDeptIdStepTwo"> </collection>
+    </resultMap>
+<!--    Dept getDeptAndEmpByDeptIdStepOne(@Param("deptId") Integer deptId);-->
+    <select id="getDeptAndEmpByDeptIdStepOne" resultMap="getDeptAndEmpByDeptIdStepOneResultMap">
+        select  * from t_dept where dept_id=#{deptId}
+    </select>
+
 </mapper>

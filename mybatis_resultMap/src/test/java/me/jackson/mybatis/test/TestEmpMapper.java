@@ -15,7 +15,8 @@ import java.util.List;
  * @version 1.0
  * @date 2022/8/24
  */
-public class TestEmpMapper {
+public class TestEmpMapper
+{
     @Test
     public void testGetId() {
         SqlSession sqlSession = SqlSessionUtil.getSqlSession();
@@ -47,5 +48,13 @@ public class TestEmpMapper {
         List<Emp> emps = deptAndEmpByDeptId.getEmps();
         emps.forEach(System.out::println);
         System.out.println(deptAndEmpByDeptId);
+    }
+
+    @Test
+    public void testConllection() {
+        SqlSession sqlSession = SqlSessionUtil.getSqlSession();
+        DeptMapper mapper = sqlSession.getMapper(DeptMapper.class);
+        Dept deptAndEmpByDeptId = mapper.getDeptAndEmpByDeptIdStepOne(1);
+        System.out.println(deptAndEmpByDeptId.getDeptName());
     }
 }

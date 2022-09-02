@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="me.jackson.spring.pojo.User" init-method="initMethod" destroy-method="destoryMethod">
+        <property name="id" value="1"/>
+        <property name="username" value="admin"/>
+        <property name="password" value="123456"/>
+        <property name="age" value="22"/>
+    </bean>
+    <bean id="beanPostProcessor" class="me.jackson.spring.processors.MyBeanPostProcessor"></bean>
+</beans>

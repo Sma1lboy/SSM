@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="studentOne" class="me.jackson.spring.pojo.Student">
+
+    </bean>
+    <bean id="studentTwo" class="me.jackson.spring.pojo.Student">
+        <property name="sId" value="20"/>
+        <property name="sName" value="hahahha"/>
+    </bean>
+    <bean id="studentThree" class="me.jackson.spring.pojo.Student">
+        <constructor-arg name="sId" value="1"></constructor-arg>
+        <constructor-arg name="sName" value="1"></constructor-arg>
+        <constructor-arg name="gender" value="1"></constructor-arg>
+        <constructor-arg name="age" value="11"></constructor-arg>
+    </bean>
+    <bean id="studentFour" class="me.jackson.spring.pojo.Student">
+        <property name="sId" value="1003"></property>
+        <property name="sName">
+
+            <value><![CDATA[
+            hahah<>!<@#@!<><
+            ]]></value>
+        </property>
+        <property name="gender">
+            <null/>
+        </property>
+    </bean>
+
+    <bean id="studentFive" class="me.jackson.spring.pojo.Student">
+        <property name="sId" value="5"></property>
+        <property name="sName" value="wangwu"></property>
+        <property name="age" value="22"></property>
+        <property name="gender" value="男"></property>
+<!--        ref-->
+<!--        <property name="clazz" ref="clazz"></property>-->
+<!--        级联-->
+<!--        <property name="clazz.cName" value="炒鸡班"></property>-->
+<!--        内部bean-->
+        <property name="clazz">
+            <bean id="clazzInner" class="me.jackson.spring.pojo.Clazz">
+                        <property name="cName" value="炒鸡班"></property>
+                        <property name="cId" value="1111"></property>
+
+            </bean>
+        </property>
+        <property name="hobby">
+            <array>
+                <value>吃饭</value>
+                <value>吃屎</value>
+                <value>打篮球两年半</value>
+                <value>游泳</value>
+            </array>
+
+        </property>
+        <property name="teacherMap" ref="teacherMap"></property>
+    </bean>
+    <bean id="clazz" class="me.jackson.spring.pojo.Clazz">
+        <property name="cId" value="1"></property>
+        <property name="cName" value="hll教室"></property>
+        <property name="students" ref="studentList"></property>
+    </bean>
+<!--    配置一个集合类型的bean 使用util的约束-->
+    <util:list id="studentList">
+        <ref bean="studentOne"></ref>
+        <ref bean="studentTwo"></ref>
+        <ref bean="studentThree"></ref>
+        <ref bean="studentFour"></ref>
+        <ref bean="studentFive"></ref>
+    </util:list>
+
+    <bean id="teacherOne" class="me.jackson.spring.pojo.Teacher">
+        <property name="tId" value="10087"></property>
+        <property name="tName" value="大宝"></property>
+    </bean>
+
+    <bean id="teacherTwo" class="me.jackson.spring.pojo.Teacher" >
+        <property name="tId" value="10086"></property>
+        <property name="tName" value="小宝"></property>
+    </bean>
+    <util:map id="teacherMap" value-type="me.jackson.spring.pojo.Teacher">
+        <entry key="10086" value-ref="teacherOne"></entry>
+        <entry key="10087" value-ref="teacherTwo"></entry>
+    </util:map>
+
+    <bean id="studentSix" class="me.jackson.spring.pojo.Student" p:sId="1003" p:sName="小米" p:teacherMap-ref="teacherMap">
+    </bean>
+
+
+</beans>

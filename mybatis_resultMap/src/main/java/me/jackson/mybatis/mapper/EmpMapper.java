@@ -4,6 +4,8 @@ import me.jackson.mybatis.pojo.Dept;
 import me.jackson.mybatis.pojo.Emp;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * @author Jackson Chen
  * @version 1.0
@@ -23,4 +25,7 @@ public interface EmpMapper {
 
 
     Emp getEmpAndDeptByStepOne(@Param("empId") Integer empId);
+
+//    @Param("deptName") String deptName
+    List<Emp> getDeptAndEmpByDeptIdStepTwo(@Param("deptId") Integer deptId);
 }

@@ -64,6 +64,10 @@
         <select id="getEmpAndDeptByStepOne" resultMap="getEmpAndDeptByStepOneResultMap" >
                 select * from t_emp where emp_id = #{empId}
         </select>
+<!--        List<Emp> getDeptAndEmpByDeptIdStepTwo(@Param("deptId") Integer deptId);-->
+        <select id="getDeptAndEmpByDeptIdStepTwo" resultType="Emp">
+                select * from t_emp where dept_id=#{deptId}
+        </select>
 
 
 </mapper>
